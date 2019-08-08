@@ -32,7 +32,10 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	ul {
+		list-style-type: square;
+		list-style-position: inside;
+	  }
 }
 blockquote, q {
 	quotes: none;
@@ -145,5 +148,79 @@ footer {
 	margin-top: 50px;
 	text-align: center;
 }
+.container{
+	border: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+  
+}
 
+.toppersec{
+	margin:0px auto;
+	background-color: gray
+}
+.toppersec nav a{	
+	color: wheat;
+}
+.logo{
+	margin:0px auto;
+	width:100%;
+}
+button {
+	border: 1px solid black;
+	background-color: white;
+	margin-top: 0px;
+	padding: 6px 40px;
+	width:50%
+}
+h1{
+	text-align:center;
+	font-size: 60px;
+}
+.services p{
+	font-size: 25px;
+}
+.sec_services{
+	background-color: wheat;
+}
+.box{
+	border: 1px solid black;
+  width: 420px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #f4f3f4;
+ 
+}
+#box{
+	border: 1px solid black;
+  width: 420px;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #f4f3f4;
+ 
+}
+.topsec{
+	display: flex;
+}
+.middle{
+	display: flex;
+	justify-content: space-between;
+}
+.middle_two{
+	display:flex;
+	justify-content: space-between;
+}
 
+.bottom{
+	display: flex;
+	justify-content: space-around;
+}
+li{
+	font-size: 20px;
+}
+.service_footer{
+	font-size: 30px;
+	text-align: center;
+}
